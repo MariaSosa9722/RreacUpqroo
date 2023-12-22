@@ -4,20 +4,25 @@ import Footer from '../Components/Footer'
 
 function Home() {
 
-    alert('Hola mundo')
+  // alert('Hola mundo')
 
   return (
     <>
-    <Headers></Headers>
-    <form>
+      <Headers></Headers>
+
+      <form>
         <label htmlFor="">Nombre</label>
         <input type="text" />
         <label htmlFor="">Apellido</label>
         <input type="text" />
-    </form>
+      </form>
 
-    <Footer></Footer>
-      
+
+
+
+
+      <Footer></Footer>
+
     </>
   )
 }

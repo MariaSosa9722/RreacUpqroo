@@ -7,6 +7,7 @@ import Footer from './Components/Footer'
 import Home from './Pages/Home'
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import Formulario from './Pages/Formulario'
+import Dashboard from './Pages/Dashboard'
 
 
 function App() {
@@ -19,6 +20,10 @@ function App() {
     {
       path: "/Formulario",
       element : <Formulario/>
+    },
+    {
+      path: "/Dashboard",
+      element : <Dashboard/>
     }
 
 
